@@ -1,0 +1,52 @@
+
+            @font-face {
+                font-family: customFont;
+                src: url(Autobus-Bold.ttf);
+            }
+
+            body{
+                background-color:#eee;
+                font-family: customFont;
+                text-align: center;
+                
+            }
+
+            .card-container{
+                display: flex;
+                justify-content: space-around;
+            }
+
+            .card{
+                background-color:white;
+                margin:30px;
+                width: 300px; 
+                text-align: center;   
+                box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+               
+            }
+
+            .card  .header{
+                height:100px;
+                background-color:cornflowerblue;
+                position: relative;
+                margin-bottom:50px;
+                
+            }
+
+            .card .header .avatar{
+                width:80px;
+                position: absolute;
+                border-radius: 50%;
+                border: 2px solid gray;
+                box-sizing: border-box; /** Dit is om de border niet mee te rekenen **/
+                left: 50%;
+                margin-left:-40px;
+                BOTTOM: 0px;
+                margin-bottom:-40px;
+                box-shadow: 7px 7px 5px -8px rgba(0,0,0,0.75);
+
+            }
+
+            .card .content{
+                padding:5px;
+            }
